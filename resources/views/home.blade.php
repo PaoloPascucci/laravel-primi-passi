@@ -20,6 +20,9 @@
 
 <body>
     <div class="content">
+        <nav>
+            <a href="/shop">Shop</a>
+        </nav>
         <div class="title">
             <h1>
                 {{ $name }} {{$number}}

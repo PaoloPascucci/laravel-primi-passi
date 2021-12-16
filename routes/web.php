@@ -20,3 +20,7 @@ Route::get('/', function () {
     ];
     return view('home', compact('name','number', 'champions'));
 })->name('home');
+
+Route::get('/shop', function(){
+    return view('shop');
+})->name('shop');
