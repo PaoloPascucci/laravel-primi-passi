@@ -12,7 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-    return view('home');
-});
+    $name = 'Champions of';
+    $number = 'League of Legends';
+    $champions = [
+         'Gangplank', 'Warwick', 'Victor', 'Urgot', 'Sett' 
+    ];
+    return view('home', compact('name','number', 'champions'));
+})->name('home');
