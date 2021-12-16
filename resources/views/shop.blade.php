@@ -15,11 +15,12 @@
 
 <body class="content">
     <nav>
-        <a href="/">Champion Spotlight</a>
+        <a href="/">Champions</a>
     </nav>
     <div>
+        <h1>Champions Spotlight</h1>
         <p>
-            Champion Spotlight is Unavailable
+            Champions Spotlight is Unavailable
         </p>
     </div>
 </body>
