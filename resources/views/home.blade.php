@@ -21,7 +21,7 @@
 <body>
     <div class="content">
         <nav>
-            <a href="/shop">Spotlight</a>
+            <a href="{{route('shop')}}">Spotlight</a>
         </nav>
         <div class="title">
             <h1>
