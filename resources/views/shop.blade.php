@@ -15,7 +15,7 @@
 
 <body class="content">
     <nav>
-        <a href="/">Champions</a>
+        <a href="{{route('home')}}">Champions</a>
     </nav>
     <div>
         <h1>Champions Spotlight</h1>
